@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="google_map_key">AIzaSyA3zfu1ilO6AaFqHk-HZDD2VFNoVGwtjDc</string>
+    <string name="search_for_hospitals">Search for hospitals</string>
+    <string name="search">Search</string>
+
+    <string name="register">register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="registers">Registers</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="login">Login</string>
+    <string name="email_login">Email</string> <!-- Changed from 'emalis' to 'email_login' to avoid duplicate keys -->
+
+</resources>

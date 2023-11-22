@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MediPoint_Final" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Day theme -->
+    <style name="Theme.MediPoint_Final_Day" parent="Base.Theme.MediPoint_Final">
+        <!-- Customize your day theme here. -->
+        <item name="colorPrimary">@color/your_primary_color</item>
+        <!-- Add other attributes as needed. -->
+    </style>
+
+    <!-- Night theme -->
+    <style name="Theme.MediPoint_Final_Night" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your night theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

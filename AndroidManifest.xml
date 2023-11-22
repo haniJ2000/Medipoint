@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.medipoint_final">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MediPoint_Final"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        android:launchMode="singleTask"
+        tools:targetApi="33">
+
+        <!-- Login/Register Activities -->
+        <activity
+            android:name="com.example.medipoint_final.Login"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.medipoint_final.Registration"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.medipoint_final.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA3zfu1ilO6AaFqHk-HZDD2VFNoVGwtjDc" />
+
+
+    </application>
+</manifest>
